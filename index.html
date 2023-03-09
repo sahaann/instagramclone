@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/x-icon" href="assets/instagram.png" />
+    <title>Instagram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Left Sidebar -->
+    <div class="left-sidebar">
+      <div class="links-flex">
+        <div class="ig-logo">
+          <a href="#">
+            <svg
+              width="800px"
+              height="800px"
+              viewBox="0 0 32 32"
+              class="insta-logo"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20.445 5h-8.891A6.559 6.559 0 0 0 5 11.554v8.891A6.559 6.559 0 0 0 11.554 27h8.891a6.56 6.56 0 0 0 6.554-6.555v-8.891A6.557 6.557 0 0 0 20.445 5zm4.342 15.445a4.343 4.343 0 0 1-4.342 4.342h-8.891a4.341 4.341 0 0 1-4.341-4.342v-8.891a4.34 4.34 0 0 1 4.341-4.341h8.891a4.342 4.342 0 0 1 4.341 4.341l.001 8.891z"
+              />
+              <path
+                d="M16 10.312c-3.138 0-5.688 2.551-5.688 5.688s2.551 5.688 5.688 5.688 5.688-2.551 5.688-5.688-2.55-5.688-5.688-5.688zm0 9.163a3.475 3.475 0 1 1-.001-6.95 3.475 3.475 0 0 1 .001 6.95zM21.7 8.991a1.363 1.363 0 1 1-1.364 1.364c0-.752.51-1.364 1.364-1.364z"
+              />
+            </svg>
+          </a>
+        </div>
+        <!-- Home -->
+        <div class="link-flex">
+          <svg
+            aria-label="Home"
+            class="link-icon link-icon-color"
+            height="24"
+            role="img"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M22 23h-6.001a1 1 0 0 1-1-1v-5.455a2.997 2.997 0 1 0-5.993 0V22a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V11.543a1.002 1.002 0 0 1 .31-.724l10-9.543a1.001 1.001 0 0 1 1.38 0l10 9.543a1.002 1.002 0 0 1 .31.724V22a1 1 0 0 1-1 1Z"
+            ></path>
+          </svg>
+          <p class="link-text active">Home</p>
+        </div>
+        <!-- Search -->
+        <div class="link-flex">
+          <svg
+            aria-label="Search"
+            class="link-icon link-icon-color"
+            height="24"
+            role="img"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M19 10.5A8.5 8.5 0 1 1 10.5 2a8.5 8.5 0 0 1 8.5 8.5Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            ></path>
+            <line
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              x1="16.511"
+              x2="22"
+              y1="16.511"
+              y2="22"
+            ></line>
+          </svg>
+          <p class="link-text">Settings</p>
+        </div>
+        <!-- Explore -->
+        <div class="link-flex">
+          <svg
+            aria-label="Explore"
+            class="link-icon link-icon-color"
+            height="24"
+            role="img"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <polygon
+              fill="none"
+              points="13.941 13.953 7.581 16.424 10.06 10.056 16.42 7.585 13.941 13.953"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            ></polygon>
+            <polygon
+              fill-rule="evenodd"
+              points="10.06 10.056 13.949 13.945 7.581 16.424 10.06 10.056"
+            ></polygon>
+            <circle
+              cx="12.001"
+              cy="12.005"
+              fill="none"
+              r="10.5"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            ></circle>
+          </svg>
+          <p class="link-text">Explore</p>
+        </div>
+        <!-- Messenger -->
+        <div class="link-flex">
+          <svg
+            aria-label="Messenger"
+            class="link-icon link-icon-color"
+            height="24"
+            role="img"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12.003 2.001a9.705 9.705 0 1 1 0 19.4 10.876 10.876 0 0 1-2.895-.384.798.798 0 0 0-.533.04l-1.984.876a.801.801 0 0 1-1.123-.708l-.054-1.78a.806.806 0 0 0-.27-.569 9.49 9.49 0 0 1-3.14-7.175 9.65 9.65 0 0 1 10-9.7Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-miterlimit="10"
+              stroke-width="1.739"
+            ></path>
+            <path
+              d="M17.79 10.132a.659.659 0 0 0-.962-.873l-2.556 2.05a.63.63 0 0 1-.758.002L11.06 9.47a1.576 1.576 0 0 0-2.277.42l-2.567 3.98a.659.659 0 0 0 .961.875l2.556-2.049a.63.63 0 0 1 .759-.002l2.452 1.84a1.576 1.576 0 0 0 2.278-.42Z"
+              fill-rule="evenodd"
+            ></path>
+          </svg>
+          <p class="link-text">Messages</p>
+        </div>
+        <!-- Notification -->
+        <div class="link-flex">
+          <svg
+            aria-label="Notifications"
+            class="link-icon link-icon-color"
+            height="24"
+            role="img"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M16.792 3.904A4.989 4.989 0 0 1 21.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 0 1 4.708-5.218 4.21 4.21 0 0 1 3.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 0 1 3.679-1.938m0-2a6.04 6.04 0 0 0-4.797 2.127 6.052 6.052 0 0 0-4.787-2.127A6.985 6.985 0 0 0 .5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 0 0 3.518 3.018 2 2 0 0 0 2.174 0 45.263 45.263 0 0 0 3.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 0 0-6.708-7.218Z"
+            ></path>
+          </svg>
+          <p class="link-text">Notifications</p>
+        </div>
+        <!-- Create -->
+        <div class="link-flex">
+          <svg
+            aria-label="New post"
+            class="link-icon"
+            height="24"
+            role="img"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M2 12v3.45c0 2.849.698 4.005 1.606 4.944.94.909 2.098 1.608 4.946 1.608h6.896c2.848 0 4.006-.7 4.946-1.608C21.302 19.455 22 18.3 22 15.45V8.552c0-2.849-.698-4.006-1.606-4.945C19.454 2.7 18.296 2 15.448 2H8.552c-2.848 0-4.006.699-4.946 1.607C2.698 4.547 2 5.703 2 8.552Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            ></path>
+            <line
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              x1="6.545"
+              x2="17.455"
+              y1="12.001"
+              y2="12.001"
+            ></line>
+            <line
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              x1="12.003"
+              x2="12.003"
+              y1="6.545"
+              y2="17.455"
+            ></line>
+          </svg>
+          <p class="link-text">Create</p>
+        </div>
+        <!-- Profile -->
+        <div class="link-flex">
+          <img
+            src="assets/user_pfp.jpeg"
+            alt="Sahan Profile picture"
+            class="user-pfp"
+          />
+          <p class="link-text">Profile</p>
+        </div>
+      </div>
+    </div>
+    <!-- Middle Section -->
+    <div class="middle-section">
+      <div class="top-nav">
+        <div class="story-flex">
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <div class="stories">
+            <!-- <img src="assets/search.svg" class="search-icon" />
+            <input type="text" placeholder="Search Twitter" /> -->
+            <img
+              src="assets/user_pfp.jpeg"
+              class="stories-pfp"
+              alt="user profile"
+            />
+          </div>
+          <!-- <img src="assets/setting.svg" class="setting-icon" /> -->
+        </div>
+
+        <!-- <div class="tab">
+          <button
+            class="tablinks"
+            id="defaultOpen"
+            onclick="switchTabs(event, 'ForYou')"
+          >
+            For You
+          </button>
+          <button class="tablinks" onclick="switchTabs(event, 'Trending')">
+            Trending
+          </button>
+          <button class="tablinks" onclick="switchTabs(event, 'News')">
+            News
+          </button>
+          <button class="tablinks" onclick="switchTabs(event, 'Sports')">
+            Sports
+          </button>
+          <button class="tablinks" onclick="switchTabs(event, 'Entertainment')">
+            Entertainment
+          </button>
+        </div> -->
+      </div>
+
+      <div class="posts">
+        <div class="post">
+          <header>
+            <img
+              src="assets/user_pfp.jpeg"
+              alt="user profile picture"
+              class="suggestions-pfp"
+            />
+            <div class="suggestions-name-container">
+              <div class="myprofile-username">user2</div>
+              <div class="myprofile-name">username2</div>
+            </div>
+          </header>
+          <img src="assets/user_pfp.jpeg" class="post-image" />
+          <footer>
+            <div class="post-footer-icons">
+              <svg
+                aria-label="Like"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M16.792 3.904A4.989 4.989 0 0 1 21.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 0 1 4.708-5.218 4.21 4.21 0 0 1 3.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 0 1 3.679-1.938m0-2a6.04 6.04 0 0 0-4.797 2.127 6.052 6.052 0 0 0-4.787-2.127A6.985 6.985 0 0 0 .5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 0 0 3.518 3.018 2 2 0 0 0 2.174 0 45.263 45.263 0 0 0 3.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 0 0-6.708-7.218Z"
+                ></path>
+              </svg>
+              <svg
+                aria-label="Comment"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></path>
+              </svg>
+              <svg
+                aria-label="Share Post"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <line
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  x1="22"
+                  x2="9.218"
+                  y1="3"
+                  y2="10.083"
+                ></line>
+                <polygon
+                  fill="none"
+                  points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></polygon>
+              </svg>
+              <svg
+                aria-label="Save"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <polygon
+                  fill="none"
+                  points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></polygon>
+              </svg>
+            </div>
+            <div class="like-counter">200 likes</div>
+            <div class="footer-desc">
+              <div class="footer-username like-counter">sahaan000</div>
+              <div class="caption">hahhahah helmet</div>
+            </div>
+            <div class="view-comments">View all comments</div>
+          </footer>
+        </div>
+        <div class="post">
+          <header>
+            <img
+              src="assets/user_pfp.jpeg"
+              alt="user profile picture"
+              class="suggestions-pfp"
+            />
+            <div class="suggestions-name-container">
+              <div class="myprofile-username">user2</div>
+              <div class="myprofile-name">username2</div>
+            </div>
+          </header>
+          <img src="assets/user_pfp.jpeg" class="post-image" />
+          <footer>
+            <div class="post-footer-icons">
+              <svg
+                aria-label="Like"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M16.792 3.904A4.989 4.989 0 0 1 21.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 0 1 4.708-5.218 4.21 4.21 0 0 1 3.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 0 1 3.679-1.938m0-2a6.04 6.04 0 0 0-4.797 2.127 6.052 6.052 0 0 0-4.787-2.127A6.985 6.985 0 0 0 .5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 0 0 3.518 3.018 2 2 0 0 0 2.174 0 45.263 45.263 0 0 0 3.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 0 0-6.708-7.218Z"
+                ></path>
+              </svg>
+              <svg
+                aria-label="Comment"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></path>
+              </svg>
+              <svg
+                aria-label="Share Post"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <line
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  x1="22"
+                  x2="9.218"
+                  y1="3"
+                  y2="10.083"
+                ></line>
+                <polygon
+                  fill="none"
+                  points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></polygon>
+              </svg>
+              <svg
+                aria-label="Save"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <polygon
+                  fill="none"
+                  points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></polygon>
+              </svg>
+            </div>
+            <div class="like-counter">200 likes</div>
+            <div class="footer-desc">
+              <div class="footer-username like-counter">sahaan000</div>
+              <div class="caption">hahhahah helmet</div>
+            </div>
+            <div class="view-comments">View all comments</div>
+          </footer>
+        </div>
+        <div class="post">
+          <header>
+            <img
+              src="assets/user_pfp.jpeg"
+              alt="user profile picture"
+              class="suggestions-pfp"
+            />
+            <div class="suggestions-name-container">
+              <div class="myprofile-username">user2</div>
+              <div class="myprofile-name">username2</div>
+            </div>
+          </header>
+          <img src="assets/user_pfp.jpeg" class="post-image" />
+          <footer>
+            <div class="post-footer-icons">
+              <svg
+                aria-label="Like"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M16.792 3.904A4.989 4.989 0 0 1 21.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 0 1 4.708-5.218 4.21 4.21 0 0 1 3.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 0 1 3.679-1.938m0-2a6.04 6.04 0 0 0-4.797 2.127 6.052 6.052 0 0 0-4.787-2.127A6.985 6.985 0 0 0 .5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 0 0 3.518 3.018 2 2 0 0 0 2.174 0 45.263 45.263 0 0 0 3.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 0 0-6.708-7.218Z"
+                ></path>
+              </svg>
+              <svg
+                aria-label="Comment"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></path>
+              </svg>
+              <svg
+                aria-label="Share Post"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <line
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  x1="22"
+                  x2="9.218"
+                  y1="3"
+                  y2="10.083"
+                ></line>
+                <polygon
+                  fill="none"
+                  points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></polygon>
+              </svg>
+              <svg
+                aria-label="Save"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <polygon
+                  fill="none"
+                  points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></polygon>
+              </svg>
+            </div>
+            <div class="like-counter">200 likes</div>
+            <div class="footer-desc">
+              <div class="footer-username like-counter">sahaan000</div>
+              <div class="caption">hahhahah helmet</div>
+            </div>
+            <div class="view-comments">View all comments</div>
+          </footer>
+        </div>
+        <div class="post">
+          <header>
+            <img
+              src="assets/user_pfp.jpeg"
+              alt="user profile picture"
+              class="suggestions-pfp"
+            />
+            <div class="suggestions-name-container">
+              <div class="myprofile-username">user2</div>
+              <div class="myprofile-name">username2</div>
+            </div>
+          </header>
+          <img src="assets/user_pfp.jpeg" class="post-image" />
+          <footer>
+            <div class="post-footer-icons">
+              <svg
+                aria-label="Like"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M16.792 3.904A4.989 4.989 0 0 1 21.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 0 1 4.708-5.218 4.21 4.21 0 0 1 3.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 0 1 3.679-1.938m0-2a6.04 6.04 0 0 0-4.797 2.127 6.052 6.052 0 0 0-4.787-2.127A6.985 6.985 0 0 0 .5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 0 0 3.518 3.018 2 2 0 0 0 2.174 0 45.263 45.263 0 0 0 3.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 0 0-6.708-7.218Z"
+                ></path>
+              </svg>
+              <svg
+                aria-label="Comment"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></path>
+              </svg>
+              <svg
+                aria-label="Share Post"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <line
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  x1="22"
+                  x2="9.218"
+                  y1="3"
+                  y2="10.083"
+                ></line>
+                <polygon
+                  fill="none"
+                  points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></polygon>
+              </svg>
+              <svg
+                aria-label="Save"
+                class="post-footer-elements link-icon-color"
+                height="24"
+                role="img"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <polygon
+                  fill="none"
+                  points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></polygon>
+              </svg>
+            </div>
+            <div class="like-counter">200 likes</div>
+            <div class="footer-desc">
+              <div class="footer-username like-counter">sahaan000</div>
+              <div class="caption">hahhahah helmet</div>
+            </div>
+            <div class="view-comments">View all comments</div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="right-sidebar">
+      <div class="my-profile">
+        <img
+          src="assets/user_pfp.jpeg"
+          alt="Sahan's Profile picture"
+          class="my-profile-pfp"
+        />
+        <div class="myprofile-name-container">
+          <div class="myprofile-username">sahaan000</div>
+          <div class="myprofile-name">ಸಹನ್</div>
+        </div>
+        <div class="mybtn">Switch</div>
+      </div>
+      <div class="suggested-for-you-box">
+        <header>
+          <h4>Suggestions for you</h4>
+          <div class="mybtn-again">See all</div>
+        </header>
+        <div class="suggestions">
+          <img
+            src="assets/user_pfp.jpeg"
+            alt="Sahan's Profile picture"
+            class="suggestions-pfp"
+          />
+          <div class="suggestions-name-container">
+            <div class="myprofile-username">user1</div>
+            <div class="myprofile-name">username1</div>
+          </div>
+          <div class="mybtn">Follow</div>
+        </div>
+        <div class="suggestions">
+          <img
+            src="assets/user_pfp.jpeg"
+            alt="Sahan's Profile picture"
+            class="suggestions-pfp"
+          />
+          <div class="suggestions-name-container">
+            <div class="myprofile-username">user2</div>
+            <div class="myprofile-name">username2</div>
+          </div>
+          <div class="mybtn">Follow</div>
+        </div>
+        <div class="suggestions">
+          <img
+            src="assets/user_pfp.jpeg"
+            alt="Sahan's Profile picture"
+            class="suggestions-pfp"
+          />
+          <div class="suggestions-name-container">
+            <div class="myprofile-username">user3</div>
+            <div class="myprofile-name">username3</div>
+          </div>
+          <div class="mybtn">Follow</div>
+        </div>
+      </div>
+      <!-- <div class="signup-container">
+        <h3>New to Twitter?</h3>
+        <p>Sign up now to get your own personalized timeline!</p>
+        <div class="signup-btn">
+          <img src="assets/google.png" class="signup-btn-icon" />
+          <p>Signup with Google</p>
+        </div>
+        <div class="signup-btn">
+          <img src="assets/apple.png" class="signup-btn-icon" />
+          <p style="font-weight: 600">Signup with Apple</p>
+        </div>
+        <div class="signup-btn">
+          <p style="font-weight: 600">Signup with Email or phone</p>
+        </div>
+        <p>
+          By signing up, you agree to the
+          <a href="#" class="twitter-links">Terms of Service</a> and
+          <a href="#" class="twitter-links">Privacy Policy</a>, including
+          <a href="#" class="twitter-links">Cookie Use</a>.
+        </p>
+      </div> -->
+      <div class="right-links">
+        <p>About &middot;</p>
+        <p>Help &middot;</p>
+        <p>Press &middot;</p>
+        <p>API &middot;</p>
+        <p>Jobs &middot;</p>
+        <p>Privacy &middot;</p>
+        <p>Terms&middot;</p>
+        <p>&nbsp;Locations&nbsp;&middot;</p>
+        <p>&nbsp;Language&nbsp;&middot;</p>
+        <p>&nbsp;Meta Verified</p>
+      </div>
+      <!-- <div class="right-links">
+        <!-- <p>&nbsp;Locations&nbsp;&middot;</p>
+        <p>&nbsp;Language&nbsp;&middot;</p>
+        <p>&nbsp;Meta Verified</p> -->
+
+      <!-- Dropdown -->
+      <!-- <div class="dropdown">
+          <p class="more-p-tag" onclick="dropDownFunction()">More...</p>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">About</a>
+            <a href="#">Status</a>
+            <a href="#">Twitter For Business</a>
+            <a href="#">Developers</a>
+          </div>
+        </div> -->
+      <!-- <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+          function dropDownFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+
+          // Close the dropdown if the user clicks outside of it
+          window.onclick = function (event) {
+            if (!event.target.matches(".more-p-tag")) {
+              var dropdowns =
+                document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains("show")) {
+                  openDropdown.classList.remove("show");
+                }
+              }
+            }
+          };
+        </script> -->
+      <!-- Active tab button -->
+      <!-- </div> -->
+      <div class="right-links copyright">
+        <p>&copy; 2023 INSTAGRAM FROM META</p>
+      </div>
+    </div>
+  </body>
+</html>
