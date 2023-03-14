@@ -130,6 +130,7 @@ body {
 }
 .stories-user {
   text-align: center;
+  align-items: center;
   overflow: hidden;
   /* word-wrap: break-word; */
   text-overflow: ellipsis;
