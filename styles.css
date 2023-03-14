@@ -113,6 +113,8 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 0.5rem;
+  display: block;
+  cursor: pointer;
   /* padding: 0.5rem 1rem; */
   /* border-radius: 50%;
   border: 1px solid var(--dark); */
@@ -125,6 +127,12 @@ body {
   /* border-width: 1px; */
   /* border-style: solid; */
   /* border-radius: 50%; */
+}
+.stories-user {
+  text-align: center;
+  overflow: hidden;
+  /* word-wrap: break-word; */
+  text-overflow: ellipsis;
 }
 .search-bar input {
   flex: 1;
@@ -188,6 +196,7 @@ body {
 }
 .suggestions-name-container {
   margin: 1px 10px 0px 15px;
+  cursor: pointer;
 }
 
 .myprofile-username {
@@ -230,12 +239,12 @@ body {
   margin-bottom: 30px;
 }
 .suggestions-pfp {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
+  cursor: pointer;
 }
 
-.signup-container p,
 .right-links p,
 .more-p-tag {
   font-size: 0.8rem;
